@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Form</title>
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   
   <body>
@@ -19,33 +20,33 @@
     <br>
     Last name:<br>
     <input type="text" name="lastname">
-    <br><br>
+    <br><br><br>
     <input type="radio" name="sex" value="male" checked>Male
-    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;
     <input type="radio" name="sex" value="female">Female
-    <br><br>
-    Comments:<br>
+    <br><br><br>
+    <strong>Comments:</strong><br>
     <textarea name="message" rows="10" cols="30">
     Please tell us a little about yourself.
     </textarea>
+    <br><br><br>
+    <strong>Select your favorite genre below:</strong>
     <br><br>
-    Select your favorite genre below:
-    <br>
     <select name="genres">
     <option value="mystery">Mystery</option>
     <option value="fantasy">Fantasy</option>
     <option value="crime">Crime</option>
     <option value="nonfiction">Non-Fiction</option>
     </select>
+    <br><br><br>
+    <strong>Please select one or more options below:</strong>
     <br><br>
-    Please select one or more options below:
-    <br>
     <input type="checkbox" name="likes" value="Books"> I like books
-    <br>
-    <input type="checkbox" name="likes" value="Movies"> I like movies
-    <br>
-    <input type="checkbox" name="likes" value="Magazines"> I like magazines
     <br><br>
+    <input type="checkbox" name="likes" value="Movies"> I like movies
+    <br><br>
+    <input type="checkbox" name="likes" value="Magazines"> I like magazines
+    <br><br><br>
     <input type="submit" value="Submit">
     </form>
 
