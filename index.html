@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+  </head>
+  
+  <body>
+    
+    <h1>Library Card Registration</h1>
+    
+    <p>
+       Please enter your information into the following form.
+    </p>
+    
+    <form>
+    First name:<br>
+    <input type="text" name="firstname">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname">
+    <br><br>
+    <input type="radio" name="sex" value="male" checked>Male
+    <br>
+    <input type="radio" name="sex" value="female">Female
+    <br><br>
+    Comments:<br>
+    <textarea name="message" rows="10" cols="30">
+    Please tell us a little about yourself.
+    </textarea>
+    <br><br>
+    Select your favorite genre below:
+    <br>
+    <select name="genres">
+    <option value="mystery">Mystery</option>
+    <option value="fantasy">Fantasy</option>
+    <option value="crime">Crime</option>
+    <option value="nonfiction">Non-Fiction</option>
+    </select>
+    <br><br>
+    Please select one or more options below:
+    <br>
+    <input type="checkbox" name="likes" value="Books"> I like books
+    <br>
+    <input type="checkbox" name="likes" value="Movies"> I like movies
+    <br>
+    <input type="checkbox" name="likes" value="Magazines"> I like magazines
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>
+
+  </body>
+</html>
